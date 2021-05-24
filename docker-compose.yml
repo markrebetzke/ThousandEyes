@@ -13,6 +13,6 @@ services:
     image: thousandeyes/enterprise-agent
     restart: always
     deploy:
-        resources:
-          limits:
-            memory: 2G
+      resources:
+        limits:
+        memory: 2G
