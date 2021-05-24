@@ -7,9 +7,9 @@ services:
       TEAGENT_ACCOUNT_TOKEN: m2ldqmq15xj42mwa9i498qtcwz157ro9
       TEAGENT_INET: 4
     volumes:
-      - '<HOST_VOL_AGENT_DIR>/thousandeyes/CanberraLab/te-agent':/var/lib/te-agent
-      - '<HOST_VOL_AGENT_DIR>/thousandeyes/CanberraLab/te-browserbot':/var/lib/te-browserbot
-      - '<HOST_VOL_AGENT_DIR>/thousandeyes/CanberraLab/log/':/var/log/agent
+      - "<HOST_VOL_AGENT_DIR>/thousandeyes/CanberraLab/te-agent":/var/lib/te-agent
+      - "<HOST_VOL_AGENT_DIR>/thousandeyes/CanberraLab/te-browserbot":/var/lib/te-browserbot
+      - "<HOST_VOL_AGENT_DIR>/thousandeyes/CanberraLab/log/":/var/log/agent
     image: thousandeyes/enterprise-agent
     restart: always
     deploy:
