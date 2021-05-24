@@ -12,7 +12,3 @@ services:
       - "<HOST_VOL_AGENT_DIR>/thousandeyes/CanberraLab/log/":/var/log/agent
     image: thousandeyes/enterprise-agent
     restart: always
-    deploy:
-      resources:
-        limits:
-        memory: 2G
